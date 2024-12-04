@@ -1,8 +1,14 @@
 import React from 'react'
-import ContactHeader from './Components/ContactHeader'
+import ContactHeader from '../Components/ContactHeader'
+import ContactPath from '../Components/ContactPath'
+
 const Contact = () => {
   return (
+    
+    <>
     <ContactHeader/>
+    <ContactPath/>
+    </>
   )
 }
  
