@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="navList">
         <ul className='flex text-xl font-semibold'>
         <li className='px-4'>
-          <Link to={"/Home"}>Home</Link>
+          <Link to={"/"}>Home</Link>
         </li>
         <li className='px-4'>
           <Link to={"/About"}>About</Link>
