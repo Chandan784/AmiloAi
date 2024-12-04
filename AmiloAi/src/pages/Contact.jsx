@@ -1,9 +1,9 @@
 import React from 'react'
-
+import ContactHeader from './Components/ContactHeader'
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <ContactHeader/>
   )
 }
-
+ 
 export default Contact
