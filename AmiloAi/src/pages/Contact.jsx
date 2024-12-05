@@ -1,12 +1,12 @@
 import React from 'react'
-import ContactHeader from '../Components/ContactHeader'
 import ContactPath from '../Components/ContactPath'
+import Header from '../Components/Header'
 
 const Contact = () => {
   return (
     
     <>
-    <ContactHeader/>
+    <Header title={"Contact US"}/>
     <ContactPath/>
     </>
   )

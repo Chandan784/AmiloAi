@@ -1,8 +1,15 @@
 import React from 'react'
+import Header from '../Components/Header'
+import Section from '../Components/About/Section'
+import LastFooter from '../Components/LastFooter'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <Header title={"About Us"}/>
+      <Section/>
+      <LastFooter/>
+    </>
   )
 }
 

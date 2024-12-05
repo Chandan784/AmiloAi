@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '../Components/Header'
+import ServiceSection from '../Components/Service/ServiceSection'
 
 const Service = () => {
   return (
-    <div>Service</div>
+    <>
+      <Header title={"Service"}/>
+      <ServiceSection/>
+    </>
   )
 }
 
