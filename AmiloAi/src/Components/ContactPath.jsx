@@ -7,11 +7,11 @@ const ContactPath = () => {
     return (
 
         <>
-            <div className='h-auto pl-24 pb-11 flex gap-10 '>
+            <div className='h-auto pl-24 pb-6 flex gap-10 '>
                 <div className=' justify-center items-center pb-28 w-3/5 h-full bg-blue-950'>
                     
-                    <h2 className=' pl-16 pt-12 font-semibold text-xl text-white'>Send a Message</h2>
-                    <form action="" className='pl-16'>
+                    <h2 className=' pl-16 pt-12  font-semibold text-xl text-white'>Send a Message</h2>
+                    <form action="" className='pl-16 pb-7'>
                         
                         <table>
                             <tr>
@@ -60,7 +60,7 @@ const ContactPath = () => {
                     </div>
  
                     <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.614603883637!2d77.68583057373115!3d12.932473815737609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13b3907f1209%3A0x311a7b213162c6ab!2sJPMorgan%20Chase%20%26%20Co.!5e0!3m2!1sen!2sin!4v1733519544548!5m2!1sen!2sin" className=' pt-5 w-80 h-72'  loading="eager" referrerpolicy=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.614603883637!2d77.68583057373115!3d12.932473815737609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13b3907f1209%3A0x311a7b213162c6ab!2sJPMorgan%20Chase%20%26%20Co.!5e0!3m2!1sen!2sin!4v1733519544548!5m2!1sen!2sin" className=' pt-5 w-80 h-64'  loading="eager" referrerpolicy=""></iframe>
                     </div>
                 </div>
             </div>
