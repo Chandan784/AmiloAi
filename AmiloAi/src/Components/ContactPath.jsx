@@ -44,7 +44,7 @@ const ContactPath = () => {
                         </div>
                         
                         <div className=' pt-4'>
-                        <button className='border py-2 px-6  text- font-bold bg-white '> Send</button>
+                        <button className='border py-2 px-6 text- font-bold bg-white hover:bg-slate-200 active:bg-slate-300'> Send</button>
                         </div>
 
                     </form>
