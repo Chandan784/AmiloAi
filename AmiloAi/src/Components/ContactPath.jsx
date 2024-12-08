@@ -7,8 +7,8 @@ const ContactPath = () => {
     return (
 
         <>
-            <div className='h-auto pl-40 pb-6 flex gap-10 '>
-                <div className=' justify-center items-center pl-16 pb-16 w-7/12 h-full bg-blue-950'>
+            <div className='h-auto  pl-40 pb-6 flex gap-10 '>
+                <div className=' justify-center items-center pl-10 pb-16 w-7/12 h-full bg-blue-950'>
                     
                     <h2 className=' pl-16 pt-12 pb-10 font-semibold text-xl text-white'>Send a Message</h2>
                     <form action="" className='pl-16 pb-7'>
