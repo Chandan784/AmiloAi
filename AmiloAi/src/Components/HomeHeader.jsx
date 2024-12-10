@@ -15,7 +15,7 @@ const HomeHeader = () => {
           </p>
           <button className="border-4 border-yellow-500 p-2 md:p-4 mt-4">GET STARTED NOW</button>
         </div>
-        
+
         {/* Image */}
         <div className="img w-full md:w-1/2 mt-6 md:mt-0 flex justify-center">
           <img
