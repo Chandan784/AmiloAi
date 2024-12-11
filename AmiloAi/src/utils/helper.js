@@ -1,6 +1,9 @@
 
 // NAVIGATION LINK CONFIGURATION
-
+import services_first from "../assets/untitled-design.png"
+import services_second from "../assets/untitled-design-second.png"
+import services_three from "../assets/untitled-design-three.png"
+import services_fourth from "../assets/untitled-design-fourth.png"
 import { FACEBOOK_LINK, INSTAGRAM_LINK, LINKEDIN_LINK, TWITTER_LINK } from "./constants";
 
 export const NAVIGATION_LINK_LIST = [
@@ -115,3 +118,44 @@ export const SOCIL_MEDIA_LIST = [
         url: LINKEDIN_LINK,
     },
 ];
+
+export const OUR_SERVICES_CARD_DATA_LIST = [
+    {
+        title: 'Cloud Services',
+        image: services_first,
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.',
+    },
+    {
+        title: 'Tech Support',
+        image: services_second,
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.',
+    },
+    {
+        title: 'Data Security',
+        image: services_three,
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.',
+    },
+    {
+        title: 'Software Dev',
+        image: services_fourth,
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.',
+    },
+]
+export const OUR_SERVICES_THREE_CARD_DATA_LIST = [
+    {
+        title: 'BRAINSTORM',
+        id: 1,
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    },
+    {
+        title: 'DEVELOPMENT',
+        id: 2,
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    },
+    {
+        title: 'DELIVERY',
+        id: 3,
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    },
+
+]

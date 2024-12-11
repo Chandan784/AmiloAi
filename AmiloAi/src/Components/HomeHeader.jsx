@@ -3,29 +3,31 @@ import "../Css/HomeHeader.css";
 
 const HomeHeader = () => {
   return (
-    <>
-      <div className="main flex flex-col md:flex-row justify-between px-6 md:px-20 items-center bg-blue-700 h-auto py-10 md:py-20">
-        {/* Text Content */}
-        <div className="content w-full md:w-1/2 text-white text-center md:text-left">
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold py-4">
-            ARE YOU LOOKING FOR SUPERIOR TECH IT SUPPORT?
-          </h2>
-          <p className="py-2 text-sm md:text-base">
-            We provide <strong>affordable</strong>, highly responsive <strong>IT Support</strong> and Services for small and medium businesses.
-          </p>
-          <button className="border-4 border-yellow-500 p-2 md:p-4 mt-4">GET STARTED NOW</button>
-        </div>
+    <div className='bg-blue-700'>
+      <div className='max-w-[1240px] mx-auto px-4 xl:px-0 py-14 md:py-16 lg:py-20'>
+        <div className="flex flex-col md:flex-row gap-6 items-center ">
+          {/* Text Content */}
+          <div className="content w-full md:w-1/2 text-white text-center md:text-left">
+            <h1 className="text-3xl !leading-[115%] md:text-4xl lg:text-5xl xl:text-[54px] font-extrabold max-w-[540px] pb-4">
+              ARE YOU LOOKING FOR <span className='text-yellow-500'>SUPERIOR TECH</span> IT SUPPORT?
+            </h1>
+            <p className="py-2 text-sm md:text-base max-w-[540px]">
+              We provide <strong>affordable</strong>, highly responsive <strong>IT Support</strong> and Services for small and medium businesses.
+            </p>
+            <button className="border-2 hover:bg-yellow-500 duration-300 hover:text-black border-yellow-500 p-2 md:p-4 mt-4">GET STARTED NOW</button>
+          </div>
 
-        {/* Image */}
-        <div className="img w-full md:w-1/2 mt-6 md:mt-0 flex justify-center">
-          <img
-            src="./src/assets/generic-1.jpg"
-            alt="main image"
-            className="w-3/4 md:w-full max-w-sm md:max-w-none"
-          />
+          {/* Image */}
+          <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center">
+            <img
+              src="./src/assets/generic-1.jpg"
+              alt="main image"
+              className="sm:w-3/4 w-full md:w-full max-w-sm md:max-w-none"
+            />
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

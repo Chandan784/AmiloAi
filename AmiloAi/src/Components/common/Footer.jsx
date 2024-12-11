@@ -14,9 +14,9 @@ const Footer = () => {
                             <div key={i} className={`flex flex-col gap-2 ${i === 3 && "lg:-ms-10 lg:pe-8"}`}>
                                 <h3 className='text-white text-xl md:text-2xl font-bold mb-2'>{obj.title}</h3>
                                 {obj.address && <p className='text-white text-sm leading-none md:text-base lg:text-lg'>{obj.address}</p>}
-                                {obj.number && <Link to={`tel:${obj.number}`} className='text-white text-xl md:text-2xl font-bold -mt-2'>{obj.number}</Link>}
+                                {obj.number && <Link to={`tel:${obj.number}`} className='text-white duration-300 hover:text-black text-xl md:text-2xl font-bold -mt-2'>{obj.number}</Link>}
                                 {obj.sales && <p className='text-white text-sm leading-none md:text-base lg:text-lg'>{obj.sales}</p>}
-                                {obj.salesNumber && <Link to={`tel:${obj.salesNumber}`} className='text-white text-xl md:text-2xl font-bold -mt-2'>{obj.salesNumber}</Link>}
+                                {obj.salesNumber && <Link to={`tel:${obj.salesNumber}`} className='text-white duration-300 hover:text-black text-xl md:text-2xl font-bold -mt-2'>{obj.salesNumber}</Link>}
                                 {obj.footerLinks && obj.footerLinks.map((data, index) => {
                                     return (
                                         <Link key={index} to={data.url} className='text-white text-sm leading-none md:text-base lg:text-lg relative before:absolute before:w-0 before:h-0.5 before:bg-white max-w-max before:left-0 before:bottom-0 duration-300 before:duration-300 hover:before:w-full'>{data.title}</Link>
