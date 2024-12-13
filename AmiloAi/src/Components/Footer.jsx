@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
     <div className='bg-blue-700 p-20 text-white'> 
-        <div className="flex justify-between leading-8 mb-10">
+        <div className="lg:flex sm:block justify-between leading-8 mb-10">
             <div>
                 <h3 className='text-xl font-bold pb-4'>OUR ADDRESS</h3>
                 <p>12345 Porto Blvd.</p>

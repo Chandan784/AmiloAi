@@ -33,7 +33,7 @@ const ServiceSection = () => {
             <div className='py-20 px-20 text-center'>
                 <h4 className=' text-center text-slate-500 font-bold'>OUR SERVICES</h4>
                 <h3 className='text-4xl font-bold'>World-Class Solutions for your Business</h3>
-                <div className='flex justify-between'>
+                <div className='flex flex-col sm:flex-row justify-between '>
                     {Services.map((Services,index)=>(
                     <div>
                         <img src={Services.imgSrc} alt="" />

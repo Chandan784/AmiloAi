@@ -36,7 +36,7 @@ const ServiceCardLast = () => {
   return (
     <>
         <div className='px-5 py-10'>
-        <div className='grid grid-cols-4 gap-8 '>
+        <div className='grid lg:grid-cols-4 sm:grid-cols-1 gap-8 '>
                 {dataSet.map((dataSet,index)=>(
                     <div className='bg-blue-950 text-white rounded-lg transform transition-transform duration-300 hover:scale-105 shadow-md items-center border-black border-2'>
                         <img src={dataSet.imgSrc}  alt="" />
