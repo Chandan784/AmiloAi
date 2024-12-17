@@ -13,19 +13,19 @@ export const NAVIGATION_LINK_LIST = [
     },
     {
         title: "About",
-        url: "",
+        url: "/About",
     },
     {
         title: "Careers",
-        url: "",
+        url: "/Careers",
     },
     {
         title: "Contact",
-        url: "",
+        url: "/Contact",
     },
     {
         title: "Service",
-        url: "",
+        url: "/Service",
     },
 
 ]

@@ -69,7 +69,7 @@ const CareerCard = () => {
             </div>
 
             {Career.map((Career,index)=>(
-            <div className='flex justify-around p-5 rounded-xl mt-10 border-2 border-gray-500 text-center items-center mx-20'>
+            <div className='lg:flex sm:block justify-around p-5 rounded-xl mt-10 border-2 border-gray-500 text-center items-center lg:mx-20 '>
                 <div className='flex'>
                     <div class="w-10 h-10 bg-green-500 rounded-full mr-3"></div>
                     <div>

@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between px-8 lg:px-20 h-24 items-center">
+      <div className="flex justify-between px-8  lg:px-20 h-24 items-center">
         <div className="img">
           <h1 className="text-2xl font-bold">Amilo Ai</h1>
         </div>
@@ -86,4 +86,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
- 

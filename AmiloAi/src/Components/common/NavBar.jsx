@@ -26,7 +26,7 @@ const NavBar = () => {
                     <div className="hidden md:flex gap-5">
                         {NAVIGATION_LINK_LIST.map((obj, i) => {
                             return (
-                                <Link className='text-xl font-semibold relative before:w-0 before:bg-blue-700 text-black before:h-[2px] before:absolute hover:text-blue-700 duration-300 hover:before:w-full before:duration-300 before:left-0 before:bottom-0'>{obj.title}</Link>
+                                <Link to={obj.url} key={i} className='text-xl font-semibold relative before:w-0 before:bg-blue-700 text-black before:h-[2px] before:absolute hover:text-blue-700 duration-300 hover:before:w-full before:duration-300 before:left-0 before:bottom-0'>{obj.title}</Link>
                             )
                         })}
                     </div>
@@ -43,7 +43,7 @@ const NavBar = () => {
                         </span>
                         {NAVIGATION_LINK_LIST.map((obj, i) => {
                             return (
-                                <Link className='text-xl font-semibold relative before:w-0 before:bg-blue-700 text-white before:h-[2px] before:absolute max-w-max hover:text-blue-700 duration-300 hover:before:w-full before:duration-300 before:left-0 before:bottom-0'>{obj.title}</Link>
+                                <Link to={obj.url} key={i} onClick={() => setOpenNav(false)} className='text-xl font-semibold relative before:w-0 before:bg-blue-700 text-white before:h-[2px] before:absolute max-w-max hover:text-blue-700 duration-300 hover:before:w-full before:duration-300 before:left-0 before:bottom-0'>{obj.title}</Link>
                             )
                         })}
                     </div>
