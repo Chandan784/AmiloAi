@@ -1,10 +1,10 @@
 
 // NAVIGATION LINK CONFIGURATION
-import services_first from "../assets/untitled-design.png"
-import services_second from "../assets/untitled-design-second.png"
-import services_three from "../assets/untitled-design-three.png"
-import services_fourth from "../assets/untitled-design-fourth.png"
-import { FACEBOOK_LINK, INSTAGRAM_LINK, LINKEDIN_LINK, TWITTER_LINK } from "./constants";
+import services_first from "../assets/images/home/untitled-design.png"
+import services_second from "../assets/images/home/untitled-design-second.png"
+import services_three from "../assets/images/home/untitled-design-three.png"
+import services_fourth from "../assets/images/home/untitled-design-fourth.png"
+import { ABOUT_LINK, CAREERS_LINK, CONTACT_LINK, FACEBOOK_LINK, INSTAGRAM_LINK, LINKEDIN_LINK, SERVICES_LINK, TWITTER_LINK } from "./constants";
 
 export const NAVIGATION_LINK_LIST = [
     {
@@ -13,19 +13,19 @@ export const NAVIGATION_LINK_LIST = [
     },
     {
         title: "About",
-        url: "/About",
+        url: ABOUT_LINK,
     },
     {
         title: "Careers",
-        url: "/Careers",
+        url: CAREERS_LINK,
     },
     {
         title: "Contact",
-        url: "/Contact",
+        url: CONTACT_LINK,
     },
     {
         title: "Service",
-        url: "/Service",
+        url: SERVICES_LINK,
     },
 
 ]

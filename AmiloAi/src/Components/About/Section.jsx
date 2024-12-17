@@ -9,14 +9,14 @@ const Section = () => {
                 <h3 className='font-bold text-4xl'>Our Amazing Clients</h3>
             </div>
             <div className="grid lg:grid-cols-4 sm:grid-cols-2 py-16 gap-16">
-                <img src="./src/assets/AboutPage/banner1.png" alt="" />
-                <img src="./src/assets/AboutPage/banner2.png" alt="" />
-                <img src="./src/assets/AboutPage/banner3.png" alt="" />
-                <img src="./src/assets/AboutPage/banner4.png" alt="" />
-                <img src="./src/assets/AboutPage/banner5.png" alt="" />
-                <img src="./src/assets/AboutPage/banner6.png" alt="" />
-                <img src="./src/assets/AboutPage/banner7.png" alt="" />
-                <img src="./src/assets/AboutPage/banner8.png" alt="" />
+                <img src="./src/assets/images/about/banner1.png" alt="banner" />
+                <img src="./src/assets/images/about/banner2.png" alt="banner" />
+                <img src="./src/assets/images/about/banner3.png" alt="banner" />
+                <img src="./src/assets/images/about/banner4.png" alt="banner" />
+                <img src="./src/assets/images/about/banner5.png" alt="banner" />
+                <img src="./src/assets/images/about/banner6.png" alt="banner" />
+                <img src="./src/assets/images/about/banner7.png" alt="banner" />
+                <img src="./src/assets/images/about/banner8.png" alt="banner" />
             </div>
         </div>
             <div className='grid lg:grid-cols-4 sm:grid-cols-2 bg-gray-900 h-auto p-20 text-white justify-around items-center'>

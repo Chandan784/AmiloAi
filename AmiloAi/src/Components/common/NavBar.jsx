@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { NAVIGATION_LINK_LIST } from '../../utils/helper'
 import { Link } from 'react-router-dom'
-import page_logo from '../../assets/page-logo.png'
+import page_logo from '../../assets/images/home/page-logo.png'
 import Icons from './Icons'
 
 const NavBar = () => {

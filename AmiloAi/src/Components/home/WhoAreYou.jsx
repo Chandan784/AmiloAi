@@ -7,14 +7,14 @@ const WhoAreYou = () => {
                 <div className='flex gap-4 lg:gap-6'>
                     <div className='w-1/2'>
                         <div className='w-full overflow-hidden group'>
-                            <img className='w-full group-hover:scale-110 duration-300' src="./src/assets/generic-1.jpg" alt="generic" />
+                            <img className='w-full group-hover:scale-110 duration-300' src="./src/assets/images/home/generic-1.jpg" alt="generic" />
                         </div>
                         <h3 className='text-xl font-bold py-2'>IT CONSULTING</h3>
                         <p className="text-sm md:text-base text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.</p>
                     </div>
                     <div className='w-1/2'>
                         <div className='w-full overflow-hidden group'>
-                            <img className='w-full group-hover:scale-110 duration-300' src="./src/assets/generic-2.jpg" alt="generic" />
+                            <img className='w-full group-hover:scale-110 duration-300' src="./src/assets/images/home/generic-2.jpg" alt="generic" />
                         </div>
                         <h3 className='text-xl font-bold py-2'>IT SUPPORT</h3>
                         <p className="text-sm md:text-base text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.</p>

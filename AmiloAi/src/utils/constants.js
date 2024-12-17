@@ -1,8 +1,7 @@
 // NAVBAR LINKS
 export const SERVICES_LINK = "/services";
-export const ABOUT_US_LINK = "/about-us";
-export const BLOG_LINK = "/blog";
-export const PROJECT_LINK = "/project";
+export const ABOUT_LINK = "/about-us";
+export const CAREERS_LINK = "/careers";
 export const CONTACT_LINK = "/contact";
 
 export const INSTAGRAM_LINK = "https://www.instagram.com/";

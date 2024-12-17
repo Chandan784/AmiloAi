@@ -1,5 +1,4 @@
 import React from 'react';
-import "../Css/HomeHeader.css";
 
 const HomeHeader = () => {
   return (
@@ -20,7 +19,7 @@ const HomeHeader = () => {
           {/* Image */}
           <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center">
             <img
-              src="./src/assets/generic-1.jpg"
+              src="./src/assets/images/home/generic-1.jpg"
               alt="main image"
               className="sm:w-3/4 w-full md:w-full max-w-sm md:max-w-none"
             />
